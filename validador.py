@@ -58,12 +58,12 @@ def menu():
             else:
                 print('CPF inválido.')
 
-        # elif opcao == '4':
-        #     cep = input('Digite o CEP a ser validado no formato xxxxx-xxx : ')
-        #     if validar_cep(cep):
-        #         print('CEP válido.')
-        #     else:
-        #         print('CEP inválido.')
+        elif opcao == '4':
+            cep = input('Digite o CEP a ser validado no formato xxxxx-xxx : ')
+            if validar_cep(cep):
+                print('CEP válido.')
+            else:
+                print('CEP inválido.')
 
         elif opcao == '5':
             print('Encerrando Validador')
